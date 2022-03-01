@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    min-height: 50px;
+}
+
+.sect {
+    display: grid;
+    grid-template-columns: 0.75fr 3.25fr 4fr;
+}
+
+.sects {
+    background-color: #171817;
+    text-align: center;
+    font-family: "Montserrat";
+    padding: 10px;
+}
+
+nav {
+    text-align: left;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: -10px;
+}
+
+.dived {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.diveds {
+    font-family: "Montserrat";
+}
+
+#utama {
+    font-family: "Montserrat";
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(52, 44, 165);
+}
+
+footer {
+    min-height: 50px;
+    background-color: #171817;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ends {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    padding: 10px;
+}
+
+.ends li {
+    display: inline;
+    list-style-type: none;
+    margin: 15px;
+}
+
+#gates {
+    text-align: right;
+}
+
+.ends a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.ends a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(101, 92, 228);
+}
